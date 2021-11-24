@@ -56,7 +56,7 @@ public class Highland {
         
         if(newPositions[0] < 0 || newPositions[0] > width || newPositions[1] < 0 || newPositions[1] > height){
             validInput = true;
-            this.probes.get(probeIndex).setPositions(oldPositions[0], oldPositions[1], oldPositions[2]);
+            this.probes.get(probeIndex).setPosition(oldPositions[0], oldPositions[1], oldPositions[2]);
         }
         else{
             validInput = false;

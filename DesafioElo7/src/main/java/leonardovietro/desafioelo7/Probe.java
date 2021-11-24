@@ -80,7 +80,7 @@ public class Probe {
     }
     
     public int[] getPosition(){
-        int[] position = {xPosition, yPosition};
+        int[] position = {xPosition, yPosition, direction};
         return position;
     }
     
@@ -114,7 +114,13 @@ public class Probe {
         
         return getDirection;
     }
-
+    
+    public void setPosition(int xPos, int yPos, int dir){
+        this.xPosition = xPos;
+        this.yPosition = yPos;
+        this.direction = dir;
+    }
+    
     public void receiveCommand(String command){
         for(int i = 0; i < command.length(); i++){
             if(command.charAt(i) == 'M'){
