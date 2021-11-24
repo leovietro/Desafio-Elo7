@@ -1,6 +1,6 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Clicek nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package leonardovietro.desafioelo7;
 import java.util.ArrayList;
